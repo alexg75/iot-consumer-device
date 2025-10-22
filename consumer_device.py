@@ -3,7 +3,7 @@ from json import loads
 import messageService
 import logger
 
-log = logger.setup_logger("cosnumer-device")
+log = logger.setup_logger("consnumer-device")
 
 TOPIC_NAME = 'action'
 CHANNEL_NAME = 'devices'
